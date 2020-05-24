@@ -65,4 +65,11 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="lft" value="tracer.fatal($MESSAGE$);" description="Emotive Log - Fatal error" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
