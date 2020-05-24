@@ -43,7 +43,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lsem" value="tracer.startMethod($METHODNAME$);&#10;$STATEMENTS$&#10;tracer.endMethod();" description="Emotive Log - Start End Block" toReformat="false" toShortenFQNames="true">
+  <template name="lsem" value="tracer.startMethod(&quot;$METHODNAME$&quot;);&#10;$STATEMENTS$&#10;tracer.endMethod();" description="Emotive Log - Start End Block" toReformat="false" toShortenFQNames="true">
     <variable name="METHODNAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
     <variable name="STATEMENTS" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
