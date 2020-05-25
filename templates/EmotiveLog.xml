@@ -51,7 +51,7 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lerm" value="tracer.error(e.getMessage());" description="Emotive Log - Error message" toReformat="false" toShortenFQNames="true">
+  <template name="lerm" value="tracer.error(e.toString());" description="Emotive Log - Error message" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
