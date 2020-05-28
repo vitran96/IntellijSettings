@@ -51,15 +51,14 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lerm" value="tracer.error(e.getMessage());" description="Emotive Log - Error message" toReformat="false" toShortenFQNames="true">
+  <template name="lerm" value="tracer.error(e.toString());" description="Emotive Log - Error message" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="lvar" value="tracer.info(&quot;$VARIABLENAME$ = &quot; + $VARIABLE$);" description="Emotive Log - Log var value" toReformat="false" toShortenFQNames="true">
-    <variable name="VARIABLENAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VARIABLE" expression="escapeString(VARIABLE)" defaultValue="" alwaysStopAt="true" />
+  <template name="lvar" value="tracer.info(&quot;$VARIABLE$ = &quot; + $VARIABLE$);" description="Emotive Log - Log var value" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
