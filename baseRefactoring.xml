@@ -3,6 +3,9 @@
     <option name="SAFE_DELETE_SEARCH_IN_COMMENTS" value="false" />
   </component>
   <component name="RefactoringSettings">
+    <option name="TYPE_COOK_EXHAUSTIVE" value="true" />
+    <option name="TYPE_COOK_COOK_OBJECTS" value="true" />
+    <option name="TYPE_COOK_PRODUCE_WILDCARDS" value="true" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="false" />
   </component>
 </application>
