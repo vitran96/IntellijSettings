@@ -1,18 +1,14 @@
 <templateSet group="output">
   <template name="serr" value="System.err.println($INPUT$);" description="Prints a string to System.err" toReformat="true" toShortenFQNames="true">
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="sout" value="System.out.println($INPUT$);" description="Prints a string to System.out" toReformat="true" toShortenFQNames="true">
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="souf" value="System.out.printf(&quot;$INPUT$&quot;);" description="Prints a formatted string to System.out" toReformat="true" toShortenFQNames="true">
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
   <template name="soutp" value="System.out.println($INPUT$);" description="Prints method parameter names and values to System.out" toReformat="true" toShortenFQNames="true">
     <variable name="INPUT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context />
   </template>
 </templateSet>
