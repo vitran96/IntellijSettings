@@ -1,4 +1,8 @@
 <application>
+  <component name="GeneralSettings">
+    <option name="confirmExit" value="false" />
+    <option name="reopenLastProject" value="false" />
+  </component>
   <component name="StatusBar">
     <option name="widgets">
       <map>
