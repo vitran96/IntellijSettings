@@ -5,5 +5,6 @@
   </component>
   <component name="EditorSettings">
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
   </component>
 </application>
