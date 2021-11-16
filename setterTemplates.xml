@@ -1,0 +1,11 @@
+<application>
+  <component name="SetterTemplates" defaultTemplateName="Builder">
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="Emotive" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>

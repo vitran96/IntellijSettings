@@ -1,0 +1,10 @@
+<application>
+  <component name="EditorSettings">
+    <option name="USE_SOFT_WRAPS" value="MAIN_EDITOR:CONSOLE" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc;*.java;*.cpp;*.h;*.hpp;*.c;*.cc;*.js;*.html;*.css;*.hs;*.cs" />
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  </component>
+</application>
