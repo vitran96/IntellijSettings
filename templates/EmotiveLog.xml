@@ -1,0 +1,74 @@
+<templateSet group="EmotiveLog">
+  <template name="lsm" value="tracer.startMethod(&quot;$METHOD_NAME$&quot;);" description="Emotive log - Start Method" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="psfet" value="private static final EmotiveLogger tracer = EmotiveLogManager.getTracer($CLASS_NAME$.class);" description="Create Emotive Log" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="lem" value="tracer.endMethod();" description="Emotive Log - End Method" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ler" value="tracer.error($ERROR_MESS$);" description="Emotive Log - Error" toReformat="false" toShortenFQNames="true">
+    <variable name="ERROR_MESS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="linfo" value="tracer.info($INFO$);" description="Emotive Log - Info" toReformat="false" toShortenFQNames="true">
+    <variable name="INFO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ldb" value="tracer.debug($DEBUG_MESSAGE$);" description="Emotive Log - Debug" toReformat="false" toShortenFQNames="true">
+    <variable name="DEBUG_MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lwn" value="tracer.warn($WARNING$);" description="Emotive Log - Warn" toReformat="false" toShortenFQNames="true">
+    <variable name="WARNING" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lsem" value="tracer.startMethod(&quot;$METHODNAME$&quot;);&#10;$STATEMENTS$&#10;tracer.endMethod();" description="Emotive Log - Start End Block" toReformat="false" toShortenFQNames="true">
+    <variable name="METHODNAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="STATEMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lerm" value="tracer.error(e.toString());" description="Emotive Log - Error message" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lvar" value="tracer.info(&quot;$VARIABLE$ = &quot; + $VARIABLE$);" description="Emotive Log - Log var value" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="lft" value="tracer.fatal($MESSAGE$);" description="Emotive Log - Fatal error" toReformat="false" toShortenFQNames="true">
+    <variable name="MESSAGE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

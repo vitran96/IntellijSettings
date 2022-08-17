@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="DiagMSample" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+    <exec>
+      <option name="COMMAND" value="D:\Workspace\Products\OpenTestSystem\trunk\src\Rt2ndGen\Java\out\production\DiagManagerSample.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="D:/Workspace/Products/OpenTestSystem/trunk/src/Rt2ndGen/Java/out/production" />
+    </exec>
+  </tool>
+</toolSet>
