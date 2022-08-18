@@ -1,0 +1,10 @@
+<keymap version="1" name="VSCode copy" parent="VSCode">
+  <action id="Diff.FocusOppositePane" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="Switcher" />
+</keymap>
