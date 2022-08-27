@@ -1,0 +1,57 @@
+<application>
+  <component name="Atom Icon Selections Config">
+    <option name="selectedFileAssociations">
+      <SelectedAssociations>
+        <option name="ownAssociations">
+          <map>
+            <entry key="Javascript">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*\.([cm]?js|es\d)$" />
+                  <option name="pattern" value=".*\.([cm]?js|es\d)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Javascript" />
+                  <option name="icon" value="/icons/files/js.svg" />
+                  <option name="priority" value="1000" />
+                  <option name="iconColor" value="FFCB6B" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="Javascript Minified">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*\.min\.(js|es6|es|jsx|ts)$" />
+                  <option name="pattern" value=".*\.min\.(js|es6|es|jsx|ts)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="Javascript Minified" />
+                  <option name="icon" value="/icons/files/jsmin.svg" />
+                  <option name="priority" value="1000" />
+                  <option name="iconColor" value="E79627" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+            <entry key="TypeScript">
+              <value>
+                <RegexAssociation>
+                  <option name="matcher" value=".*\.(ts|tslint)$" />
+                  <option name="pattern" value=".*\.(ts|tslint)$" />
+                  <option name="touched" value="true" />
+                  <option name="name" value="TypeScript" />
+                  <option name="icon" value="/icons/files/typeScript.svg" />
+                  <option name="priority" value="1000" />
+                  <option name="iconColor" value="1E9CEF" />
+                  <option name="folderColor" />
+                  <option name="folderIconColor" />
+                </RegexAssociation>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </SelectedAssociations>
+    </option>
+  </component>
+</application>
